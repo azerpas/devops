@@ -31,8 +31,8 @@ sysctl -w net.ipv4.ip_forward=1
 ## Questions 
 ### How to control and limit the access to an instance?
 To control and limit the access, there's a couple of options:
-    - IAM (Identity and Access Management): In case you want to prevent access to an instance internally, you can use IAM to control the access.
-    - Internet Gateway & NAT: In case you want to limit the access to an instance from outside, you can use an Internet Gateway & NAT to control the access.
+- IAM (Identity and Access Management): In case you want to prevent access to an instance internally, you can use IAM to control the access.
+- Internet Gateway & NAT: In case you want to limit the access to an instance from outside, you can use an Internet Gateway & NAT to control the access.
 ### What does private network instances need to communicate with the internet to fetch packages and updates?
 They need to use a NAT gateway to connect to the internet.
 ### What are the properties that describe a "Public Subnet" in AWS?
